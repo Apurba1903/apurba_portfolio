@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { RevealOnScroll } from "../RevealOnScroll";
 import emailjs from "emailjs-com";
+import { FaGithub, FaLinkedin } from "react-icons/fa"; 
 
 export const Contact = () => {
     const [formData, setFormData] = useState(
@@ -90,6 +91,28 @@ export const Contact = () => {
                             Send Message
                         </button>
                     </form>
+                        
+                    {/* Social Media Icons */}
+                    <div className="flex justify-center gap-6 mt-15">
+                        <a 
+                            href="https://github.com/Apurba1903" 
+                            target="_blank" 
+                            rel="noopener noreferrer"
+                            className="text-gray-300 hover:text-blue-500 text-2xl transition"
+                        >
+                            <FaGithub />
+                        </a>
+                        <a 
+                            href="https://www.linkedin.com/in/apurba1903" 
+                            target="_blank" 
+                            rel="noopener noreferrer"
+                            className="text-gray-300 hover:text-blue-500 text-2xl transition"
+                        >
+                            <FaLinkedin />
+                        </a>
+                    </div>
+                    
+
                 </div>
             </RevealOnScroll>
         </section>
