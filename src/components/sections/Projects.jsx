@@ -26,10 +26,10 @@ export const Projects = () => {
                             <p className="text-gray-400 mb-3 text-justify"> 
                                 <ul className="list-disc list-inside">
                                     <li> 
-                                    <strong>Deep Learning-Based Disease Classification:</strong> This project utilizes deep learning models to accurately classify potato leaf diseases into three categories—Potato Early Blight, Potato Late Blight, and Potato Healthy—using a curated dataset of 3,000 images from Kaggle.
+                                    <strong>Deep Learning-Based Disease Classification:</strong> This project uses deep learning to classify potato leaf diseases—Early Blight, Late Blight, and Healthy—using a Kaggle dataset of 3,000 images.
                                     </li>
                                     <li>
-                                    <strong>Enhancing Agricultural Productivity:</strong> By enabling early detection and precise identification of potato diseases, this study contributes to improved crop management,ultimately supporting global food security and sustainable agriculture.
+                                    <strong>Enhancing Agricultural Productivity:</strong> This study enhances crop management by enabling early detection and precise identification of potato diseases, promoting global food security and sustainable agriculture.
                                     </li>
                                 </ul>
                             </p>
@@ -74,7 +74,7 @@ export const Projects = () => {
 
                             {/* Project Description */}
                             <p className="text-gray-400 mb-3 text-justify">
-                            This paper presents a cost-effective and user-friendly fire detection system utilizing IoT technology. The system detects fire using a flame sensor, triggers an alarm, and activates a water pump through a relay switch. Additionally, it sends real-time notifications to users via the Telegram app. Designed with simple sensors and motors, the system ensures quick response and efficient fire management. Performance analysis demonstrates its effectiveness compared to existing solutions, highlighting its potential for widespread adoption in urban and industrial settings.
+                            This paper introduces a cost-effective IoT-based fire detection system that detects fire using a flame sensor, triggers an alarm, and activates a water pump via a relay switch. It also sends real-time notifications through Telegram, ensuring a quick response and efficient fire management. Performance analysis confirms its effectiveness, making it a viable solution for urban and industrial use.
                             </p>
                             
                             {/* Project Technologies */}
@@ -117,7 +117,7 @@ export const Projects = () => {
 
                             {/* Project Description */}
                             <p className="text-gray-400 mb-3 text-justify">
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima, impedit? Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Tea House is a modern and elegant tea shop website featuring a beautifully designed UI with smooth animations and responsive layouts. It showcases a variety of premium teas, highlights customer testimonials, and provides easy navigation for a seamless user experience.
                             </p>
                             
                             {/* Project Technologies */}
@@ -160,7 +160,7 @@ export const Projects = () => {
 
                             {/* Project Description */}
                             <p className="text-gray-400 mb-3 text-justify">
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima, impedit? Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Penguin Fashion is a sleek and responsive e-commerce website showcasing trendy clothing with a clean and modern design. It features stylish product displays, smooth navigation, and a user-friendly layout for an enhanced shopping experience. Perfect for fashion enthusiasts looking for a visually appealing online store.
                             </p>
                             
                             {/* Project Technologies */}
@@ -203,7 +203,7 @@ export const Projects = () => {
 
                             {/* Project Description */}
                             <p className="text-gray-400 mb-3 text-justify">
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima, impedit? Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Gamer Zone Design is a dynamic and visually engaging website tailored for gaming enthusiasts. It features a bold, modern layout with eye-catching graphics, intuitive navigation, and a futuristic design. Perfect for showcasing gaming products, news, or events in an immersive way.
                             </p>
                             
                             {/* Project Technologies */}
@@ -246,7 +246,7 @@ export const Projects = () => {
 
                             {/* Project Description */}
                             <p className="text-gray-400 mb-3 text-justify">
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima, impedit? Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Biker Zone is a sleek and modern website designed for motorcycle enthusiasts. It showcases stylish bike collections, key features, and pricing with a clean, user-friendly interface. The bold design and responsive layout ensure an engaging browsing experience.
                             </p>
                             
                             {/* Project Technologies */}
@@ -289,7 +289,7 @@ export const Projects = () => {
 
                             {/* Project Description */}
                             <p className="text-gray-400 mb-3 text-justify">
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima, impedit? Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Fruit Brust is a vibrant and engaging website featuring a fresh fruit marketplace. It offers a visually appealing design with bright colors, smooth navigation, and a responsive layout. The site enhances the user experience with an intuitive interface for browsing fruit selections.
                             </p>
                             
                             {/* Project Technologies */}
@@ -332,7 +332,7 @@ export const Projects = () => {
 
                             {/* Project Description */}
                             <p className="text-gray-400 mb-3 text-justify">
-                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima, impedit? Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Flower Shop is a beautifully designed website showcasing a variety of fresh flowers. It features an elegant layout, smooth navigation, and a responsive design. The site provides a delightful user experience for exploring and purchasing flowers effortlessly.
                             </p>
                             
                             {/* Project Technologies */}
