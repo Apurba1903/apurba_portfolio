@@ -26,6 +26,7 @@ export const About = () => {
         "CSS", 
         "React",
         "Tailwind CSS",
+        "daisyUI",
     ];
 
     const backendSkills = [
@@ -119,20 +120,26 @@ export const About = () => {
                 <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 transition-all"
                 >
                     <h3 className="text-xl font-bold mb-4"> 🏫 Education </h3>
-                    <ul className="list-disc list-inside text-gray-300 space-y-2">
+                    <ul className="list-disc list-inside text-gray-300 space-y-5">
+
                         <li>
                             <strong>BSc in Computer Science and Engineering</strong> - Bangladesh University of Business and Technology (2020-2024)
                         </li>
+
+                        <li>
+                            <strong><abbr style={{ textDecoration: "none" }} title="International English Language Testing System">IELTS</abbr></strong> - Overall Band Score 7 (Valid Till: April, 2026 )
+                        </li>
+
                         <li>
                             <strong>Relevant Coursework:</strong> 
                             
                             <ol className="list-inside space-y-2" style={{ listStyleType: "lower-roman" }}>
 
-                                <li>Data Science Mentorship Program (DSMP) 2.0 by CampusX - Running                                    
+                                <li> <strong>Data Science Mentorship Program (DSMP) 2.0</strong> by CampusX - Running                                    
                                 </li>
 
                                 <li>
-                                Post Graduate Diploma in Data Science  (PGDDS) by IBER, <abbr style={{ textDecoration: "none" }} title="United International University">UIU</abbr> & <abbr style={{ textDecoration: "none" }} title="BASIS Institute of Technology & Management">BITM</abbr> - Running
+                                    <strong>Post Graduate Diploma in Data Science  (PGDDS)</strong> by IBER, <abbr style={{ textDecoration: "none" }} title="United International University">UIU</abbr> & <abbr style={{ textDecoration: "none" }} title="BASIS Institute of Technology & Management">BITM</abbr> - Running
                                 </li>  </ol>                           
                 
                         </li>
@@ -143,29 +150,30 @@ export const About = () => {
                 <div className="p-6 rounded-xl border border-white/10 hover:-translate-y-1 transition-all"
                 >
                     <h3 className="text-xl font-bold mb-4"> 💼 Work Experience </h3>
-                        <div className="space-y-4 text-gray-300">
 
-                            <div>
+                        
+                        <div className="text-gray-300 space-y-5">
+                            <p>
                                 <h4 className="font-semibold"> 
                                     <strong>Health Care Expert</strong> at SeekMed Care (March, 2024 - December, 2024)</h4>
-                                <p> 
-                                    <ul className="list-disc list-inside">
+                                
+                                <ol className="list-inside space-y-1" style={{ listStyleType: "lower-roman" }}>
                                     <li>Data Management and Excel Work</li>
                                     <li>Medical Documentation</li>
                                     <li>Assisted Patients with Hospital procedure</li>
                                     
-                                    </ul>
-                                </p>
-                            </div>
+                                </ol>
+                                
+                            </p>
 
-                            <div>
+                            <p>
                                 <h4 className="font-semibold"><strong>Workshop</strong> on AI Career Management (February, 2025)</h4>
                                 <p> 
                                     Learned about AI Career Management: Skills, Trends and Opportunities.   
                                 </p>
-                            </div>
-
+                            </p>
                         </div>
+
                 </div>
 
 
