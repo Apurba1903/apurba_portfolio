@@ -127,21 +127,16 @@ export const About = () => {
                         </li>
 
                         <li>
+                            <strong> <abbr style={{ textDecoration: "none" }} title="Post Graduate Diploma">PGD</abbr> in Data Science</strong> - IBER, United International University & <abbr style={{ textDecoration: "none" }} title="BASIS Institute of Technology & Management">BITM</abbr> (2025-Running)
+                        </li>
+
+                        <li>
                             <strong><abbr style={{ textDecoration: "none" }} title="International English Language Testing System">IELTS</abbr></strong> - Overall Band Score 7 (Valid Till: April, 2026 )
                         </li>
 
                         <li>
                             <strong>Relevant Coursework:</strong> 
-                            
-                            <ol className="list-inside space-y-2" style={{ listStyleType: "lower-roman" }}>
-
-                                <li> <strong>Data Science Mentorship Program (DSMP) 2.0</strong> by CampusX - Running                                    
-                                </li>
-
-                                <li>
-                                    <strong>Post Graduate Diploma in Data Science  (PGDDS)</strong> by IBER, <abbr style={{ textDecoration: "none" }} title="United International University">UIU</abbr> & <abbr style={{ textDecoration: "none" }} title="BASIS Institute of Technology & Management">BITM</abbr> - Running
-                                </li>  </ol>                           
-                
+                            <p><strong>Data Science Mentorship Program (DSMP) 2.0</strong> by CampusX - Running</p>
                         </li>
                     </ul>
                 </div>

@@ -20,13 +20,21 @@ export const Home = () => {
 
                 <div className="flex justify-center space-x-4">
 
-                    <a href="#google drive cv link" className="bg-blue-500 text-white py-3 px-6 rounded font-medium transform relative overflow-hidden hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59, 130, 246, 0.4)]"
+                    <a 
+                    href="https://drive.google.com/file/d/1lY2dHo4A1u56yvJzx7ev85OMsoJnGs39/view?usp=sharing"
+                    className="bg-blue-500 text-white py-3 px-6 rounded font-medium transform relative overflow-hidden hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59, 130, 246, 0.4)]"
+                    target="_blank" 
+                    rel="noopener noreferrer"
                     >
                         Resume
                     </a>
 
-                    <a href="#google drive cv link" className="border border-blue-500/50 text-blue-500 py-3 px-6 rounded font-medium transition-all duration-200 hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59, 130, 246, 0.2)] 
+                    <a 
+                    href="https://drive.google.com/file/d/1eYzVOo5lVG9m4hcMCDEmuNaPDsyvVGET/view?usp=sharing" 
+                    className="border border-blue-500/50 text-blue-500 py-3 px-6 rounded font-medium transition-all duration-200 hover:-translate-y-0.5 hover:shadow-[0_0_15px_rgba(59, 130, 246, 0.2)] 
                     hover:bg-blue-500/10"
+                    target="_blank" 
+                    rel="noopener noreferrer"
                     >
                         Curriculum Vitae
                     </a>
