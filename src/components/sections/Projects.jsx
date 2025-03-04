@@ -113,11 +113,97 @@ export const Projects = () => {
                         <div className="p-6 rounded-xl border border-white/10  hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px+8px_rgba(59,130,246,0.1)] transition-all"
                         >   
                             {/* Project Name */}
+                            <h3 className="text-xl font-bold mb-2 ">Tea House</h3>
+
+                            {/* Project Description */}
+                            <p className="text-gray-400 mb-3 text-justify">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima, impedit? Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            </p>
+                            
+                            {/* Project Technologies */}
+                            <div className="flex flex-wrap gap-2 ">
+                                {["HTML", "CSS", "daisyUI", "Tailwind CSS"].map((tech, key) => (
+                                    <span 
+                                    key={key}
+                                    className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 hover:shadow-[0_2px+8px_rgba(59,130,246,0.2)] transition"
+                                >
+                                    {tech}
+                                </span>
+                                ))}
+                            </div>
+                            
+                            {/* Project Image and Link*/}
+                            <div className="flex justify-between items-center ">
+                                <a 
+                                href="https://apurba1903.github.io/tea-house/"
+                                className="text-blue-400 hover:text-blue-300 transition-colors my-4"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                >
+                                <span>View Project ➡️</span>
+                                <img 
+                                    src="images/tea.png" 
+                                    alt="Potato Leaves Photo" 
+                                    className="mt-4 object-cover transition-transform duration-300 hover:scale-110 rounded-lg"
+                                /> 
+                                </a>
+                            </div>
+                        </div>
+                        {/* Project 3 End */}
+
+
+                        {/* Project 4 Start */}
+                        <div className="p-6 rounded-xl border border-white/10  hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px+8px_rgba(59,130,246,0.1)] transition-all"
+                        >   
+                            {/* Project Name */}
+                            <h3 className="text-xl font-bold mb-2 ">Penguin Fashion</h3>
+
+                            {/* Project Description */}
+                            <p className="text-gray-400 mb-3 text-justify">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima, impedit? Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            </p>
+                            
+                            {/* Project Technologies */}
+                            <div className="flex flex-wrap gap-2 ">
+                                {["HTML", "CSS", "daisyUI", "Tailwind CSS"].map((tech, key) => (
+                                    <span 
+                                    key={key}
+                                    className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 hover:shadow-[0_2px+8px_rgba(59,130,246,0.2)] transition"
+                                >
+                                    {tech}
+                                </span>
+                                ))}
+                            </div>
+                            
+                            {/* Project Image and Link*/}
+                            <div className="flex justify-between items-center ">
+                                <a 
+                                href="https://apurba1903.github.io/Penguin-Fashion/"
+                                className="text-blue-400 hover:text-blue-300 transition-colors my-4"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                >
+                                <span>View Project ➡️</span>
+                                <img 
+                                    src="images/fashion.png" 
+                                    alt="Potato Leaves Photo" 
+                                    className="mt-4 object-cover transition-transform duration-300 hover:scale-110 rounded-lg"
+                                /> 
+                                </a>
+                            </div>
+                        </div>
+                        {/* Project 4 End */}
+
+
+                        {/* Project 5 Start */}
+                        <div className="p-6 rounded-xl border border-white/10  hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px+8px_rgba(59,130,246,0.1)] transition-all"
+                        >   
+                            {/* Project Name */}
                             <h3 className="text-xl font-bold mb-2 ">Gamer Zone Design</h3>
 
                             {/* Project Description */}
                             <p className="text-gray-400 mb-3 text-justify">
-                            A frontend only website about games and gamers with different types of cards and buttons.
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima, impedit? Lorem ipsum dolor sit amet consectetur adipisicing elit.
                             </p>
                             
                             {/* Project Technologies */}
@@ -149,10 +235,10 @@ export const Projects = () => {
                                 </a>
                             </div>
                         </div>
-                        {/* Project 3 End */}
+                        {/* Project 5 End */}
 
 
-                        {/* Project 4 Start */}
+                        {/* Project 6 Start */}
                         <div className="p-6 rounded-xl border border-white/10  hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px+8px_rgba(59,130,246,0.1)] transition-all"
                         >   
                             {/* Project Name */}
@@ -160,7 +246,7 @@ export const Projects = () => {
 
                             {/* Project Description */}
                             <p className="text-gray-400 mb-3 text-justify">
-                            A frontend only website about a bikes with slides and responsive.
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima, impedit? Lorem ipsum dolor sit amet consectetur adipisicing elit.
                             </p>
                             
                             {/* Project Technologies */}
@@ -192,10 +278,10 @@ export const Projects = () => {
                                 </a>
                             </div>
                         </div>
-                        {/* Project 4 End */}
+                        {/* Project 6 End */}
 
 
-                        {/* Project 5 Start */}
+                        {/* Project 7 Start */}
                         <div className="p-6 rounded-xl border border-white/10  hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px+8px_rgba(59,130,246,0.1)] transition-all"
                         >   
                             {/* Project Name */}
@@ -203,7 +289,7 @@ export const Projects = () => {
 
                             {/* Project Description */}
                             <p className="text-gray-400 mb-3 text-justify">
-                            A frontend only website about a fruit shop with many features including slides and cards. 
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima, impedit? Lorem ipsum dolor sit amet consectetur adipisicing elit.
                             </p>
                             
                             {/* Project Technologies */}
@@ -235,10 +321,10 @@ export const Projects = () => {
                                 </a>
                             </div>
                         </div>
-                        {/* Project 5 End */}
+                        {/* Project 7 End */}
 
 
-                        {/* Project 6 Start */}
+                        {/* Project 8 Start */}
                         <div className="p-6 rounded-xl border border-white/10  hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px+8px_rgba(59,130,246,0.1)] transition-all"
                         >   
                             {/* Project Name */}
@@ -246,7 +332,7 @@ export const Projects = () => {
 
                             {/* Project Description */}
                             <p className="text-gray-400 mb-3 text-justify">
-                            A frontend only basic website about a flower shop.
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima, impedit? Lorem ipsum dolor sit amet consectetur adipisicing elit.
                             </p>
                             
                             {/* Project Technologies */}
@@ -278,7 +364,7 @@ export const Projects = () => {
                                 </a>
                             </div>
                         </div>
-                        {/* Project 6 End */}
+                        {/* Project 8 End */}
 
 
                         
