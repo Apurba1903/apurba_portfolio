@@ -36,7 +36,7 @@ export const Projects = () => {
                             
                             {/* Project Technologies */}
                             <div className="flex flex-wrap gap-2 ">
-                                {["Python", "NumPy", "Pandas", "Scikit-learn", "TensorFlow"].map((tech, key) => (
+                                {["Python", "NumPy", "Pandas", "Scikit-learn", "TensorFlow", "Matplotlib"].map((tech, key) => (
                                     <span 
                                     key={key}
                                     className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 hover:shadow-[0_2px+8px_rgba(59,130,246,0.2)] transition"
@@ -64,6 +64,60 @@ export const Projects = () => {
                             </div>
                         </div>
                         {/* Project 1 End */}
+
+
+                        {/* Project NLP Website Start */}
+                        <div className="p-6 rounded-xl border border-white/10  hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px+8px_rgba(59,130,246,0.1)] transition-all"
+                        >   
+                            {/* Project Name */}
+                            <h3 className="text-xl font-bold mb-2 ">NLP Website</h3>
+
+                            {/* Project Description */}
+                            <p className="text-gray-400 mb-3 text-justify">
+                                Developed a Flask-based web application that leverages Natural Language Processing (NLP) APIs to perform:
+                                <ul className="list-disc list-inside">
+                                    <li> 
+                                    <strong>Named Entity Recognition (NER):</strong> Extracts entities like names, organizations, and locations from text.
+                                    </li>
+                                    <li>
+                                    <strong>Sentiment Analysis:</strong> Determines the sentiment (positive, negative, neutral) of a given text.
+                                    </li>
+                                    <li>
+                                    <strong>Abuse IP Check:</strong> Checks if an IP address is associated with malicious activity.
+                                    </li>
+                                </ul>
+                            </p>
+                            
+                            {/* Project Technologies */}
+                            <div className="flex flex-wrap gap-2 ">
+                                {["Python", "Flask", "HTML", "CSS", "Render", "RapidAPI"].map((tech, key) => (
+                                    <span 
+                                    key={key}
+                                    className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 hover:shadow-[0_2px+8px_rgba(59,130,246,0.2)] transition"
+                                >
+                                    {tech}
+                                </span>
+                                ))}
+                            </div>
+                            
+                            {/* Project Image and Link*/}
+                            <div className="flex justify-between items-center ">
+                                <a 
+                                href="https://nlp-website-qr72.onrender.com/"
+                                className="text-blue-400 hover:text-blue-300 transition-colors my-4"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                >
+                                <span>View Project ➡️</span>
+                                <img 
+                                    src="images/nlpwebsite.png" 
+                                    alt="NLP Website Photo" 
+                                    className="mt-4 object-cover transition-transform duration-300 hover:scale-110 rounded-lg"
+                                /> 
+                                </a>
+                            </div>
+                        </div>
+                        {/* Project NLP Website End */}
 
 
                         {/* Project 2 Start */}

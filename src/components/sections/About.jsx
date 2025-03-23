@@ -6,9 +6,10 @@ import { RevealOnScroll } from "../RevealOnScroll";
 export const About = () => {
 
     const programmingSkills = [
-        "Python", 
-        "C",
+        "Python",
+        "Go", 
         "JavaScript",
+        "C"        
         
     ];
 
@@ -22,11 +23,13 @@ export const About = () => {
     ];
 
     const frontendSkills = [
+        "Flask",
         "HTML", 
         "CSS", 
         "React",
         "Tailwind CSS",
         "daisyUI",
+
     ];
 
     const backendSkills = [
