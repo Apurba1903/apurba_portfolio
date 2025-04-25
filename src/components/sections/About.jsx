@@ -1,3 +1,4 @@
+import { Type } from "lucide-react";
 import { RevealOnScroll } from "../RevealOnScroll";
 
 
@@ -14,11 +15,13 @@ export const About = () => {
     ];
 
     const frameworkSkills = [
-        "NumPy", 
+        "Numpy", 
         "Pandas",
-        "Matplotlib",
         "Scikit-learn",
-        "TensorFlow",
+        "Tensorflow",
+        "Seaborn",
+        "Matplotlib",
+        "Plotly",
         
     ];
 
@@ -29,11 +32,20 @@ export const About = () => {
         "React",
         "Tailwind CSS",
         "daisyUI",
+        "Dash",
 
     ];
 
     const backendSkills = [
-        "Node.js", 
+        "Node.js",
+        "Streamlit",
+        
+        
+    ];
+
+    const automationScraping = [
+        "Selenium", 
+        "Beautiful Soup", 
         
         
     ];
@@ -58,8 +70,9 @@ export const About = () => {
                 </p>
                 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-
-                <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
+                    
+                    {/* Programming Skills */}
+                    <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
                         <h3 className="text-xl font-bold mb-4"> Programming Language </h3>
                         <div className="flex flex-wrap gap-2"> 
                             {programmingSkills.map((tech, key) => (
@@ -72,7 +85,8 @@ export const About = () => {
                             ))}
                         </div>
                     </div>
-
+                    
+                    {/* Frameworks / Libraries */}
                     <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
                         <h3 className="text-xl font-bold mb-4">  Frameworks / Libraries </h3>
                         <div className="flex flex-wrap gap-2"> 
@@ -86,7 +100,8 @@ export const About = () => {
                             ))}
                         </div>
                     </div>
-
+                    
+                    {/* Frontend */}
                     <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
                         <h3 className="text-xl font-bold mb-4"> Frontend </h3>
                         <div className="flex flex-wrap gap-2"> 
@@ -100,7 +115,8 @@ export const About = () => {
                             ))}
                         </div>
                     </div>
-
+                    
+                    {/* Backend */}
                     <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
                         <h3 className="text-xl font-bold mb-4"> Backend </h3>
                         <div className="flex flex-wrap gap-2"> 
@@ -114,6 +130,22 @@ export const About = () => {
                             ))}
                         </div>
                     </div>
+                    
+                    {/* Automation / Scraping */}
+                    <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
+                        <h3 className="text-xl font-bold mb-4"> Automation / Scraping </h3>
+                        <div className="flex flex-wrap gap-2"> 
+                            {automationScraping.map((tech, key) => (
+                                <span 
+                                    key={key}
+                                    className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 hover:shadow-[0_2px+8px_rgba(59,130,246,0.2)] transition"
+                                >
+                                    {tech}
+                                </span>
+                            ))}
+                        </div>
+                    </div>
+
                 </div>
             </div>
             
@@ -137,9 +169,16 @@ export const About = () => {
                             <strong><abbr style={{ textDecoration: "none" }} title="International English Language Testing System">IELTS</abbr></strong> - Overall Band Score 7 (Valid Till: April, 2026 )
                         </li>
 
-                        <li>
-                            <strong>Relevant Coursework:</strong> 
-                            <p><strong>Data Science Mentorship Program (DSMP) 2.0</strong> by CampusX - Running</p>
+                        <li>                            
+                            <strong>Relevant Coursework:</strong>
+                            <ul className="list-inside space-y-2" style={{ listStyleType: "lower-roman" }}>
+                                <li>
+                                    <strong>Data Science Mentorship Program (DSMP) 2.0</strong> by CampusX - <em>Running</em>
+                                </li>
+                                <li>
+                                    <strong>Ultimate Web Scraping for Data Science</strong> by CampusX Edtech Pvt Ltd - <em>Running</em>
+                                </li>
+                            </ul>
                         </li>
                     </ul>
                 </div>
