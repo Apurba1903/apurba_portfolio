@@ -55,7 +55,7 @@ export const Projects = () => {
                                 >
                                 <span>View Project ➡️</span>
                                 <img 
-                                    src="images/plantVillage.jpg" 
+                                    src="images/plantVillage.png" 
                                     alt="Potato Leaves Photo" 
                                     className="mt-4 object-cover transition-transform duration-300 hover:scale-110 rounded-lg"
                                 /> 
