@@ -15,8 +15,7 @@ export const Projects = () => {
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                         
 
-
-                        {/* Project 1 Start */}
+                        {/* Potato Disease Classification Start */}
                         <div className="p-6 rounded-xl border border-white/10  hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px+8px_rgba(59,130,246,0.1)] transition-all"
                         >   
                             {/* Project Name */}
@@ -63,10 +62,268 @@ export const Projects = () => {
                                 </a>
                             </div>
                         </div>
-                        {/* Project 1 End */}
+                        {/* Potato Disease Classification End */}
 
 
-                        {/* Project NLP Website Start */}
+                        {/* IEEE Publication Start */}
+                        <div className="p-6 rounded-xl border border-white/10  hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px+8px_rgba(59,130,246,0.1)] transition-all"
+                        >   
+                            {/* Project Name */}
+                            <h3 className="text-xl font-bold mb-2 ">IEEE Publication - An IoT-Based Integrated Solution for Fire Detection Alarm System and Water Supply Management (2023)</h3>
+
+                            {/* Project Description */}
+                            <p className="text-gray-400 mb-3 text-justify">
+                            This paper introduces a cost-effective IoT-based fire detection system that detects fire using a flame sensor, triggers an alarm, and activates a water pump via a relay switch. It also sends real-time notifications through Telegram, ensuring a quick response and efficient fire management. Performance analysis confirms its effectiveness, making it a viable solution for urban and industrial use.
+                            </p>
+                            
+                            {/* Project Technologies */}
+                            <div className="flex flex-wrap gap-2 ">
+                                {["Arduino", "ESP8266", "LDR", "Servo Motor", "5V Relay", "Alarm System"].map((tech, key) => (
+                                    <span 
+                                    key={key}
+                                    className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 hover:shadow-[0_2px+8px_rgba(59,130,246,0.2)] transition"
+                                >
+                                    {tech}
+                                </span>
+                                ))}
+                            </div>
+                            
+                            {/* Project Image and Link*/}
+                            <div className="flex justify-between items-center ">
+                                <a 
+                                href="https://ieeexplore.ieee.org/document/10303496"
+                                className="text-blue-400 hover:text-blue-300 transition-colors my-4"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                >
+                                <span>View Project ➡️</span>
+                                <img 
+                                    src="images/iot.png" 
+                                    alt="Potato Leaves Photo" 
+                                    className="mt-4 object-cover transition-transform duration-300 hover:scale-110 rounded-lg"
+                                /> 
+                                </a>
+                            </div>
+                        </div>
+                        {/* IEEE Publication End */}
+
+
+                        {/* BD Dashboard Start */}
+                        <div className="p-6 rounded-xl border border-white/10  hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px+8px_rgba(59,130,246,0.1)] transition-all"
+                        >   
+                            {/* Project Name */}
+                            <h3 className="text-xl font-bold mb-2 ">BD Dashboard Website</h3>
+
+                            {/* Project Description */}
+                            <p className="text-gray-400 mb-3 text-justify"> 
+                                A focused Dash visualization analyzing Bangladesh’s socio-economic progress using Gapminder datasets. Features interactive charts (e.g., life expectancy vs. GDP, population growth) to explore trends over time.
+                            </p>
+                            
+                            {/* Project Technologies */}
+                            <div className="flex flex-wrap gap-2 ">
+                                {["Python", "NumPy", "Pandas", "Plotly", "Dash", "HTML"].map((tech, key) => (
+                                    <span 
+                                    key={key}
+                                    className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 hover:shadow-[0_2px+8px_rgba(59,130,246,0.2)] transition"
+                                >
+                                    {tech}
+                                </span>
+                                ))}
+                            </div>
+                            
+                            {/* Project Image and Link*/}
+                            <div className="flex justify-between items-center ">
+                                <a 
+                                href="https://github.com/Apurba1903/bd-dashboard"
+                                className="text-blue-400 hover:text-blue-300 transition-colors my-4"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                >
+                                <span>View Project ➡️</span>
+                                <img 
+                                    src="images/bdDashboard.png" 
+                                    alt="Gapminder Dataset Project" 
+                                    className="mt-4 object-cover transition-transform duration-300 hover:scale-110 rounded-lg"
+                                /> 
+                                </a>
+                            </div>
+                        </div>
+                        {/* BD Dashboard End */}
+
+
+                        {/* Census Visualization Start */}
+                        <div className="p-6 rounded-xl border border-white/10  hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px+8px_rgba(59,130,246,0.1)] transition-all"
+                        >   
+                            {/* Project Name */}
+                            <h3 className="text-xl font-bold mb-2 ">Census Visualization Website</h3>
+
+                            {/* Project Description */}
+                            <p className="text-gray-400 mb-3 text-justify"> 
+                                An interactive dashboard visualizing key Indian census metrics like literacy rates, internet access, and population demographics. Users can compare state-level data through dynamic charts and filters, powered by JavaScript and census datasets. Designed for researchers and policymakers to uncover regional trends.
+                            </p>
+                            
+                            {/* Project Technologies */}
+                            <div className="flex flex-wrap gap-2 ">
+                                {["Python", "NumPy", "Pandas", "Plotly", "Streamlit"].map((tech, key) => (
+                                    <span 
+                                    key={key}
+                                    className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 hover:shadow-[0_2px+8px_rgba(59,130,246,0.2)] transition"
+                                >
+                                    {tech}
+                                </span>
+                                ))}
+                            </div>
+                            
+                            {/* Project Image and Link*/}
+                            <div className="flex justify-between items-center ">
+                                <a 
+                                href="https://apurba1903-census-visualization-app-uwjm7z.streamlit.app/"
+                                className="text-blue-400 hover:text-blue-300 transition-colors my-4"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                >
+                                <span>View Project ➡️</span>
+                                <img 
+                                    src="images/census.png" 
+                                    alt="Census Visualization Picture" 
+                                    className="mt-4 object-cover transition-transform duration-300 hover:scale-110 rounded-lg"
+                                /> 
+                                </a>
+                            </div>
+                        </div>
+                        {/* Census Visualization End */}
+
+
+                        {/* Startup Dashboard Start */}
+                        <div className="p-6 rounded-xl border border-white/10  hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px+8px_rgba(59,130,246,0.1)] transition-all"
+                        >   
+                            {/* Project Name */}
+                            <h3 className="text-xl font-bold mb-2 ">Indian Startup Dashboard Website</h3>
+
+                            {/* Project Description */}
+                            <p className="text-gray-400 mb-3 text-justify"> 
+                            A data-driven platform analyzing India’s startup ecosystem, showcasing investments, funding trends, and investor-company relationships. Built with Python and Streamlit for real-time exploration.
+                            </p>
+                            
+                            {/* Project Technologies */}
+                            <div className="flex flex-wrap gap-2 ">
+                                {["Python", "NumPy", "Pandas", "Plotly", "Matplotlib", "Streamlit"].map((tech, key) => (
+                                    <span 
+                                    key={key}
+                                    className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 hover:shadow-[0_2px+8px_rgba(59,130,246,0.2)] transition"
+                                >
+                                    {tech}
+                                </span>
+                                ))}
+                            </div>
+                            
+                            {/* Project Image and Link*/}
+                            <div className="flex justify-between items-center ">
+                                <a 
+                                href="https://6xyjoj2tnkghprwhevmbdf.streamlit.app/"
+                                className="text-blue-400 hover:text-blue-300 transition-colors my-4"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                >
+                                <span>View Project ➡️</span>
+                                <img 
+                                    src="images/startupDashboard.png" 
+                                    alt="Indian Startup Dashboard" 
+                                    className="mt-4 object-cover transition-transform duration-300 hover:scale-110 rounded-lg"
+                                /> 
+                                </a>
+                            </div>
+                        </div>
+                        {/* Startup Dashboard End */}
+
+
+                        {/* Covid19 Dashboard Start */}
+                        <div className="p-6 rounded-xl border border-white/10  hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px+8px_rgba(59,130,246,0.1)] transition-all"
+                        >   
+                            {/* Project Name */}
+                            <h3 className="text-xl font-bold mb-2 ">Covid 19 Dashboard</h3>
+
+                            {/* Project Description */}
+                            <p className="text-gray-400 mb-3 text-justify"> 
+                                An interactive COVID-19 India dashboard using Covid19 Dataset tracking total/active/recovered cases and deaths. Features 3 core visualizations: daily state-wise trends, age distribution analysis, and case progression timelines - providing actionable insights into India's pandemic patterns.
+                            </p>
+                            
+                            {/* Project Technologies */}
+                            <div className="flex flex-wrap gap-2 ">
+                                {["Python", "NumPy", "Pandas", "Plotly", "Matplotlib", "Dash"].map((tech, key) => (
+                                    <span 
+                                    key={key}
+                                    className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 hover:shadow-[0_2px+8px_rgba(59,130,246,0.2)] transition"
+                                >
+                                    {tech}
+                                </span>
+                                ))}
+                            </div>
+                            
+                            {/* Project Image and Link*/}
+                            <div className="flex justify-between items-center ">
+                                <a 
+                                href="https://github.com/Apurba1903/covid19"
+                                className="text-blue-400 hover:text-blue-300 transition-colors my-4"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                >
+                                <span>View Project ➡️</span>
+                                <img 
+                                    src="images/covid19.png" 
+                                    alt="Covid 19 Dashboard" 
+                                    className="mt-4 object-cover transition-transform duration-300 hover:scale-110 rounded-lg"
+                                /> 
+                                </a>
+                            </div>
+                        </div>
+                        {/* Covid19 Dashboard End */}
+
+
+                        {/* EPL Top Scorer Start */}
+                        <div className="p-6 rounded-xl border border-white/10  hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px+8px_rgba(59,130,246,0.1)] transition-all"
+                        >   
+                            {/* Project Name */}
+                            <h3 className="text-xl font-bold mb-2 ">EPL Top Scorer Web Scraping Project</h3>
+
+                            {/* Project Description */}
+                            <p className="text-gray-400 mb-3 text-justify"> 
+                                Python web scraper using BeautifulSoup to automatically extract EPL top scorer stats (goals, assists, matches) from BBC Sport. Outputs clean, structured data in xlsx format for football analytics and performance tracking.
+                            </p>
+                            
+                            {/* Project Technologies */}
+                            <div className="flex flex-wrap gap-2 ">
+                                {["Python", "Requests", "BeautifulSoup"].map((tech, key) => (
+                                    <span 
+                                    key={key}
+                                    className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 hover:shadow-[0_2px+8px_rgba(59,130,246,0.2)] transition"
+                                >
+                                    {tech}
+                                </span>
+                                ))}
+                            </div>
+                            
+                            {/* Project Image and Link*/}
+                            <div className="flex justify-between items-center ">
+                                <a 
+                                href="https://github.com/Apurba1903/epl-top-scorer-ws"
+                                className="text-blue-400 hover:text-blue-300 transition-colors my-4"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                >
+                                <span>View Project ➡️</span>
+                                <img 
+                                    src="images/eplWebScrap.png" 
+                                    alt="EPL Web Scraping Project" 
+                                    className="mt-4 object-cover transition-transform duration-300 hover:scale-110 rounded-lg"
+                                /> 
+                                </a>
+                            </div>
+                        </div>
+                        {/* EPL Top Scorer End */}
+
+
+                        {/* NLP Website Start */}
                         <div className="p-6 rounded-xl border border-white/10  hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px+8px_rgba(59,130,246,0.1)] transition-all"
                         >   
                             {/* Project Name */}
@@ -117,53 +374,13 @@ export const Projects = () => {
                                 </a>
                             </div>
                         </div>
-                        {/* Project NLP Website End */}
+                        {/* NLP Website Start */}
 
 
-                        {/* Project 2 Start */}
-                        <div className="p-6 rounded-xl border border-white/10  hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px+8px_rgba(59,130,246,0.1)] transition-all"
-                        >   
-                            {/* Project Name */}
-                            <h3 className="text-xl font-bold mb-2 ">IEEE Publication - An IoT-Based Integrated Solution for Fire Detection Alarm System and Water Supply Management (2023)</h3>
-
-                            {/* Project Description */}
-                            <p className="text-gray-400 mb-3 text-justify">
-                            This paper introduces a cost-effective IoT-based fire detection system that detects fire using a flame sensor, triggers an alarm, and activates a water pump via a relay switch. It also sends real-time notifications through Telegram, ensuring a quick response and efficient fire management. Performance analysis confirms its effectiveness, making it a viable solution for urban and industrial use.
-                            </p>
-                            
-                            {/* Project Technologies */}
-                            <div className="flex flex-wrap gap-2 ">
-                                {["Arduino", "ESP8266", "LDR", "Servo Motor", "5V Relay", "Alarm System"].map((tech, key) => (
-                                    <span 
-                                    key={key}
-                                    className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 hover:shadow-[0_2px+8px_rgba(59,130,246,0.2)] transition"
-                                >
-                                    {tech}
-                                </span>
-                                ))}
-                            </div>
-                            
-                            {/* Project Image and Link*/}
-                            <div className="flex justify-between items-center ">
-                                <a 
-                                href="https://ieeexplore.ieee.org/document/10303496"
-                                className="text-blue-400 hover:text-blue-300 transition-colors my-4"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                >
-                                <span>View Project ➡️</span>
-                                <img 
-                                    src="images/iot.png" 
-                                    alt="Potato Leaves Photo" 
-                                    className="mt-4 object-cover transition-transform duration-300 hover:scale-110 rounded-lg"
-                                /> 
-                                </a>
-                            </div>
-                        </div>
-                        {/* Project 2 End */}
+                        
 
 
-                        {/* Project 3 Start */}
+                        {/* Tea House Start */}
                         <div className="p-6 rounded-xl border border-white/10  hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px+8px_rgba(59,130,246,0.1)] transition-all"
                         >   
                             {/* Project Name */}
@@ -203,10 +420,10 @@ export const Projects = () => {
                                 </a>
                             </div>
                         </div>
-                        {/* Project 3 End */}
+                        {/* Tea House End */}
 
 
-                        {/* Project 4 Start */}
+                        {/* Penguin Fashion Start */}
                         <div className="p-6 rounded-xl border border-white/10  hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px+8px_rgba(59,130,246,0.1)] transition-all"
                         >   
                             {/* Project Name */}
@@ -246,10 +463,10 @@ export const Projects = () => {
                                 </a>
                             </div>
                         </div>
-                        {/* Project 4 End */}
+                        {/* Penguin Fashion End */}
 
 
-                        {/* Project 5 Start */}
+                        {/* Gamer Zone Design Start */}
                         <div className="p-6 rounded-xl border border-white/10  hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px+8px_rgba(59,130,246,0.1)] transition-all"
                         >   
                             {/* Project Name */}
@@ -289,10 +506,10 @@ export const Projects = () => {
                                 </a>
                             </div>
                         </div>
-                        {/* Project 5 End */}
+                        {/* Gamer Zone Design End */}
 
 
-                        {/* Project 6 Start */}
+                        {/* Biker Zone Start */}
                         <div className="p-6 rounded-xl border border-white/10  hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px+8px_rgba(59,130,246,0.1)] transition-all"
                         >   
                             {/* Project Name */}
@@ -332,10 +549,10 @@ export const Projects = () => {
                                 </a>
                             </div>
                         </div>
-                        {/* Project 6 End */}
+                        {/* Biker Zone End */}
 
 
-                        {/* Project 7 Start */}
+                        {/* Fruit Brust Frontend Start */}
                         <div className="p-6 rounded-xl border border-white/10  hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px+8px_rgba(59,130,246,0.1)] transition-all"
                         >   
                             {/* Project Name */}
@@ -375,10 +592,10 @@ export const Projects = () => {
                                 </a>
                             </div>
                         </div>
-                        {/* Project 7 End */}
+                        {/* Fruit Brust Frontend End */}
 
 
-                        {/* Project 8 Start */}
+                        {/* Flower Shop Start */}
                         <div className="p-6 rounded-xl border border-white/10  hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px+8px_rgba(59,130,246,0.1)] transition-all"
                         >   
                             {/* Project Name */}
@@ -418,13 +635,7 @@ export const Projects = () => {
                                 </a>
                             </div>
                         </div>
-                        {/* Project 8 End */}
-
-
-                        
-
-
-                        
+                        {/* Flower Shop End */}
 
 
                     </div>
