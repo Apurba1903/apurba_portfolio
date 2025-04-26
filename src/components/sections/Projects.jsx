@@ -19,7 +19,7 @@ export const Projects = () => {
                         <div className="p-6 rounded-xl border border-white/10  hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px+8px_rgba(59,130,246,0.1)] transition-all"
                         >   
                             {/* Project Name */}
-                            <h3 className="text-xl font-bold mb-2 ">Potato Disease Classification of Leaves Using Deep Learning</h3>
+                            <h3 className="text-xl font-bold mb-2 ">Potato Disease Classification of Leaves Using Deep Learning - <em>Deep Learning Project</em></h3>
 
                             {/* Project Description */}
                             <p className="text-gray-400 mb-3 text-justify"> 
@@ -69,7 +69,7 @@ export const Projects = () => {
                         <div className="p-6 rounded-xl border border-white/10  hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px+8px_rgba(59,130,246,0.1)] transition-all"
                         >   
                             {/* Project Name */}
-                            <h3 className="text-xl font-bold mb-2 ">IEEE Publication - An IoT-Based Integrated Solution for Fire Detection Alarm System and Water Supply Management (2023)</h3>
+                            <h3 className="text-xl font-bold mb-2 ">IEEE Publication - An IoT-Based Integrated Solution for Fire Detection Alarm System and Water Supply Management (2023) - <em>IOT Project</em></h3>
 
                             {/* Project Description */}
                             <p className="text-gray-400 mb-3 text-justify">
@@ -112,7 +112,7 @@ export const Projects = () => {
                         <div className="p-6 rounded-xl border border-white/10  hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px+8px_rgba(59,130,246,0.1)] transition-all"
                         >   
                             {/* Project Name */}
-                            <h3 className="text-xl font-bold mb-2 ">BD Dashboard Website</h3>
+                            <h3 className="text-xl font-bold mb-2 ">BD Dashboard Website - <em>Data Analysis Project</em></h3>
 
                             {/* Project Description */}
                             <p className="text-gray-400 mb-3 text-justify"> 
@@ -151,11 +151,54 @@ export const Projects = () => {
                         {/* BD Dashboard End */}
 
 
+                        {/* Yahoo Finance Stocks Start */}
+                        <div className="p-6 rounded-xl border border-white/10  hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px+8px_rgba(59,130,246,0.1)] transition-all"
+                        >   
+                            {/* Project Name */}
+                            <h3 className="text-xl font-bold mb-2 ">Yahoo Finance Stocks - <em>Web Scraping Project</em></h3>
+
+                            {/* Project Description */}
+                            <p className="text-gray-400 mb-3 text-justify"> 
+                                Python-based web scraper to collect and clean stock market data from Yahoo Finance, fetching historical prices, company fundamentals, and real-time metrics. The tool automates data extraction while handling missing values and formatting inconsistencies. The cleaned datasets (exported as xlsx) are analysis-ready, suitable for backtesting trading strategies, conducting fundamental analysis, or tracking market trends—demonstrating an end-to-end solution from raw web data to actionable financial insights.
+                            </p>
+                            
+                            {/* Project Technologies */}
+                            <div className="flex flex-wrap gap-2 ">
+                                {["Python", "Time", "Pandas", "Numpy", "Selenium"].map((tech, key) => (
+                                    <span 
+                                    key={key}
+                                    className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 hover:shadow-[0_2px+8px_rgba(59,130,246,0.2)] transition"
+                                >
+                                    {tech}
+                                </span>
+                                ))}
+                            </div>
+                            
+                            {/* Project Image and Link*/}
+                            <div className="flex justify-between items-center ">
+                                <a 
+                                href="https://github.com/Apurba1903/stock_data_ws"
+                                className="text-blue-400 hover:text-blue-300 transition-colors my-4"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                >
+                                <span>View Project ➡️</span>
+                                <img 
+                                    src="images/yahooFinanceStock.png"
+                                    alt="Yahoo Finance Stock Data Web Scraping Project" 
+                                    className="mt-4 object-cover transition-transform duration-300 hover:scale-110 rounded-lg"
+                                /> 
+                                </a>
+                            </div>
+                        </div>
+                        {/* Yahoo Finance Stocks End */}
+
+
                         {/* Census Visualization Start */}
                         <div className="p-6 rounded-xl border border-white/10  hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px+8px_rgba(59,130,246,0.1)] transition-all"
                         >   
                             {/* Project Name */}
-                            <h3 className="text-xl font-bold mb-2 ">Census Visualization Website</h3>
+                            <h3 className="text-xl font-bold mb-2 ">Census Visualization Website - <em>Data Analysis Project</em></h3>
 
                             {/* Project Description */}
                             <p className="text-gray-400 mb-3 text-justify"> 
@@ -198,7 +241,7 @@ export const Projects = () => {
                         <div className="p-6 rounded-xl border border-white/10  hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px+8px_rgba(59,130,246,0.1)] transition-all"
                         >   
                             {/* Project Name */}
-                            <h3 className="text-xl font-bold mb-2 ">Indian Startup Dashboard Website</h3>
+                            <h3 className="text-xl font-bold mb-2 ">Indian Startup Dashboard Website - <em>Data Analysis Project</em></h3>
 
                             {/* Project Description */}
                             <p className="text-gray-400 mb-3 text-justify"> 
@@ -241,7 +284,7 @@ export const Projects = () => {
                         <div className="p-6 rounded-xl border border-white/10  hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px+8px_rgba(59,130,246,0.1)] transition-all"
                         >   
                             {/* Project Name */}
-                            <h3 className="text-xl font-bold mb-2 ">Covid 19 Dashboard</h3>
+                            <h3 className="text-xl font-bold mb-2 ">Covid 19 Dashboard - <em>Data Analysis Project</em></h3>
 
                             {/* Project Description */}
                             <p className="text-gray-400 mb-3 text-justify"> 
@@ -284,7 +327,7 @@ export const Projects = () => {
                         <div className="p-6 rounded-xl border border-white/10  hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px+8px_rgba(59,130,246,0.1)] transition-all"
                         >   
                             {/* Project Name */}
-                            <h3 className="text-xl font-bold mb-2 ">EPL Top Scorer Web Scraping Project</h3>
+                            <h3 className="text-xl font-bold mb-2 ">EPL Top Scorer - <em>Web Scraping Project</em></h3>
 
                             {/* Project Description */}
                             <p className="text-gray-400 mb-3 text-justify"> 
@@ -327,7 +370,7 @@ export const Projects = () => {
                         <div className="p-6 rounded-xl border border-white/10  hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px+8px_rgba(59,130,246,0.1)] transition-all"
                         >   
                             {/* Project Name */}
-                            <h3 className="text-xl font-bold mb-2 ">NLP Website</h3>
+                            <h3 className="text-xl font-bold mb-2 ">NLP Website - <em>Python Project</em></h3>
 
                             {/* Project Description */}
                             <p className="text-gray-400 mb-3 text-justify">
@@ -384,7 +427,7 @@ export const Projects = () => {
                         <div className="p-6 rounded-xl border border-white/10  hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px+8px_rgba(59,130,246,0.1)] transition-all"
                         >   
                             {/* Project Name */}
-                            <h3 className="text-xl font-bold mb-2 ">Tea House</h3>
+                            <h3 className="text-xl font-bold mb-2 ">Tea House - <em>Web Development Project</em></h3>
 
                             {/* Project Description */}
                             <p className="text-gray-400 mb-3 text-justify">
@@ -427,7 +470,7 @@ export const Projects = () => {
                         <div className="p-6 rounded-xl border border-white/10  hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px+8px_rgba(59,130,246,0.1)] transition-all"
                         >   
                             {/* Project Name */}
-                            <h3 className="text-xl font-bold mb-2 ">Penguin Fashion</h3>
+                            <h3 className="text-xl font-bold mb-2 ">Penguin Fashion - <em>Web Development Project</em></h3>
 
                             {/* Project Description */}
                             <p className="text-gray-400 mb-3 text-justify">
@@ -470,7 +513,7 @@ export const Projects = () => {
                         <div className="p-6 rounded-xl border border-white/10  hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px+8px_rgba(59,130,246,0.1)] transition-all"
                         >   
                             {/* Project Name */}
-                            <h3 className="text-xl font-bold mb-2 ">Gamer Zone Design</h3>
+                            <h3 className="text-xl font-bold mb-2 ">Gamer Zone Design - <em>Web Development Project</em></h3>
 
                             {/* Project Description */}
                             <p className="text-gray-400 mb-3 text-justify">
@@ -513,7 +556,7 @@ export const Projects = () => {
                         <div className="p-6 rounded-xl border border-white/10  hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px+8px_rgba(59,130,246,0.1)] transition-all"
                         >   
                             {/* Project Name */}
-                            <h3 className="text-xl font-bold mb-2 ">Biker Zone</h3>
+                            <h3 className="text-xl font-bold mb-2 ">Biker Zone - <em>Web Development Project</em></h3>
 
                             {/* Project Description */}
                             <p className="text-gray-400 mb-3 text-justify">
@@ -556,7 +599,7 @@ export const Projects = () => {
                         <div className="p-6 rounded-xl border border-white/10  hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px+8px_rgba(59,130,246,0.1)] transition-all"
                         >   
                             {/* Project Name */}
-                            <h3 className="text-xl font-bold mb-2 ">Fruit Brust Frontend</h3>
+                            <h3 className="text-xl font-bold mb-2 ">Fruit Brust Frontend - <em>Web Development Project</em></h3>
 
                             {/* Project Description */}
                             <p className="text-gray-400 mb-3 text-justify">
@@ -599,7 +642,7 @@ export const Projects = () => {
                         <div className="p-6 rounded-xl border border-white/10  hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px+8px_rgba(59,130,246,0.1)] transition-all"
                         >   
                             {/* Project Name */}
-                            <h3 className="text-xl font-bold mb-2 ">Flower Shop</h3>
+                            <h3 className="text-xl font-bold mb-2 ">Flower Shop - <em>Web Development Project</em></h3>
 
                             {/* Project Description */}
                             <p className="text-gray-400 mb-3 text-justify">
