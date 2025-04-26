@@ -46,6 +46,7 @@ export const About = () => {
     const automationScraping = [
         "Selenium", 
         "Beautiful Soup", 
+        "Requests", 
         
         
     ];
@@ -162,7 +163,7 @@ export const About = () => {
                         </li>
 
                         <li>
-                            <strong> <abbr style={{ textDecoration: "none" }} title="Post Graduate Diploma">PGD</abbr> in Data Science</strong> - IBER, United International University & <abbr style={{ textDecoration: "none" }} title="BASIS Institute of Technology & Management">BITM</abbr> (2025-Running)
+                            <strong> <abbr style={{ textDecoration: "none" }} title="Post Graduate Diploma">PGD</abbr> in Data Science</strong> - IBER, United International University & <abbr style={{ textDecoration: "none" }} title="BASIS Institute of Technology & Management">BITM</abbr> (2025-<em>Running</em>)
                         </li>
 
                         <li>
