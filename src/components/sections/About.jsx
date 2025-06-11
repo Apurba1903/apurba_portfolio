@@ -8,46 +8,56 @@ export const About = () => {
 
     const programmingSkills = [
         "Python",
-        "Go", 
         "JavaScript",
-        "C"        
+        "C",
+        "Go",
         
     ];
 
-    const frameworkSkills = [
-        "Numpy", 
+    const dsandmlSkills = [
+        "Numpy",
         "Pandas",
         "Scikit-learn",
         "Tensorflow",
-        "Seaborn",
+        
+    ];
+
+    const dvSkills = [
         "Matplotlib",
         "Plotly",
+        "Seaborn",
+        "Tableau",
+        "PowerBI",
+        
+    ];
+
+    const dbSkills = [
+        "MySQL",
+        "Amazon RDS",
         
     ];
 
     const frontendSkills = [
-        "Flask",
         "HTML", 
         "CSS", 
         "React",
         "Tailwind CSS",
-        "daisyUI",
-        "Dash",
 
     ];
 
     const backendSkills = [
-        "Node.js",
+        "Flask", 
         "Streamlit",
+        "Docker",
+        "FastAPI",
         
-        
-    ];
+    ];    
 
     const automationScraping = [
         "Selenium", 
         "Beautiful Soup", 
-        "Requests", 
-        
+        "Scrapy", 
+        "Requests",    
         
     ];
 
@@ -86,12 +96,12 @@ export const About = () => {
                             ))}
                         </div>
                     </div>
-                    
-                    {/* Frameworks / Libraries */}
+
+                    {/* Data Science & Machine Learning Skills */}
                     <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
-                        <h3 className="text-xl font-bold mb-4">  Frameworks / Libraries </h3>
+                        <h3 className="text-xl font-bold mb-4"> Data Science & Machine Learning </h3>
                         <div className="flex flex-wrap gap-2"> 
-                            {frameworkSkills.map((tech, key) => (
+                            {dsandmlSkills.map((tech, key) => (
                                 <span 
                                     key={key}
                                     className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 hover:shadow-[0_2px+8px_rgba(59,130,246,0.2)] transition"
@@ -101,10 +111,40 @@ export const About = () => {
                             ))}
                         </div>
                     </div>
-                    
-                    {/* Frontend */}
+
+                    {/*  Data Visualization Skills */}
                     <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
-                        <h3 className="text-xl font-bold mb-4"> Frontend </h3>
+                        <h3 className="text-xl font-bold mb-4">  Data Visualization </h3>
+                        <div className="flex flex-wrap gap-2"> 
+                            {dvSkills.map((tech, key) => (
+                                <span 
+                                    key={key}
+                                    className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 hover:shadow-[0_2px+8px_rgba(59,130,246,0.2)] transition"
+                                >
+                                    {tech}
+                                </span>
+                            ))}
+                        </div>
+                    </div>
+
+                    {/*  Database */}
+                    <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
+                        <h3 className="text-xl font-bold mb-4"> Database </h3>
+                        <div className="flex flex-wrap gap-2"> 
+                            {dbSkills.map((tech, key) => (
+                                <span 
+                                    key={key}
+                                    className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 hover:shadow-[0_2px+8px_rgba(59,130,246,0.2)] transition"
+                                >
+                                    {tech}
+                                </span>
+                            ))}
+                        </div>
+                    </div>
+
+                    {/* Frontend Development */}
+                    <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
+                        <h3 className="text-xl font-bold mb-4"> Frontend Development </h3>
                         <div className="flex flex-wrap gap-2"> 
                             {frontendSkills.map((tech, key) => (
                                 <span 
@@ -117,9 +157,9 @@ export const About = () => {
                         </div>
                     </div>
                     
-                    {/* Backend */}
+                    {/*  Backend & Web Frameworks */}
                     <div className="rounded-xl p-6 hover:-translate-y-1 transition-all">
-                        <h3 className="text-xl font-bold mb-4"> Backend </h3>
+                        <h3 className="text-xl font-bold mb-4">  Backend & Web Frameworks </h3>
                         <div className="flex flex-wrap gap-2"> 
                             {backendSkills.map((tech, key) => (
                                 <span 
@@ -159,27 +199,34 @@ export const About = () => {
                     <ul className="list-disc list-inside text-gray-300 space-y-5">
 
                         <li>
-                            <strong>BSc in Computer Science and Engineering</strong> - Bangladesh University of Business and Technology (2020-2024)
-                        </li>
-
-                        <li>
                             <strong> <abbr style={{ textDecoration: "none" }} title="Post Graduate Diploma">PGD</abbr> in Data Science</strong> - IBER, United International University & <abbr style={{ textDecoration: "none" }} title="BASIS Institute of Technology & Management">BITM</abbr> (2025-<em>Running</em>)
                         </li>
 
                         <li>
-                            <strong><abbr style={{ textDecoration: "none" }} title="International English Language Testing System">IELTS</abbr></strong> - Overall Band Score 7 (Valid Till: April, 2026 )
+                            <strong>BSc in Computer Science and Engineering</strong> - Bangladesh University of Business and Technology (2020-2024)
+                        </li>
+
+                        <li>
+                            <strong><abbr style={{ textDecoration: "none" }} title="International English Language Testing System">IELTS</abbr></strong> - Overall Band Score 7
                         </li>
 
                         <li>                            
                             <strong>Relevant Coursework:</strong>
+
                             <ul className="list-inside space-y-2" style={{ listStyleType: "lower-roman" }}>
+
                                 <li>
                                     <strong>Data Science Mentorship Program (DSMP) 2.0</strong> by CampusX - <em>Running</em>
                                 </li>
+
                                 <li>
-                                    <strong>Ultimate Web Scraping for Data Science</strong> by CampusX Edtech Pvt Ltd - <em>Running</em>
+                                    <strong>Ultimate Web Scraping for Data Science</strong> by CampusX Edtech Pvt Ltd – <em>Completed</em> &nbsp;
+                                    [<a href="docs/Web-Scraping-Certificate.pdf" target="_blank">Certificate</a>]
                                 </li>
+
+
                             </ul>
+
                         </li>
                     </ul>
                 </div>
