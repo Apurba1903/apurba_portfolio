@@ -13,7 +13,7 @@ export const Projects = () => {
                     <h2 className="text-4xl font-bold mb-8 bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent text-center"> Featured Projects
                     </h2>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-                        
+
 
                         {/* Potato Disease Classification Start */}
                         <div className="p-6 rounded-xl border border-white/10  hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px+8px_rgba(59,130,246,0.1)] transition-all"
@@ -108,6 +108,243 @@ export const Projects = () => {
                         {/* IEEE Publication End */}
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                        {/* Insurance Prediction FastAPI Start */}
+                        <div className="p-6 rounded-xl border border-white/10  hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px+8px_rgba(59,130,246,0.1)] transition-all"
+                        >   
+                            {/* Project Name */}
+                            <h3 className="text-xl font-bold mb-2 ">Insurance Prediction API - <em>FastAPI Project</em></h3>
+
+                            {/* Project Description */}
+                            <p className="text-gray-400 mb-3 text-justify"> 
+                                A full-stack machine learning project that predicts customer insurance categories using structured data. The system includes a trained ML classification model served via a FastAPI REST API, a user-friendly Streamlit dashboard for real-time interaction, and complete Docker-based deployment for portability.
+                            </p>
+                            
+                            {/* Project Technologies */}
+                            <div className="flex flex-wrap gap-2 ">
+                                {["Python", "Docker", "Pandas", "Pydantic", "FastAPI", "Streamlit"].map((tech, key) => (
+                                    <span 
+                                    key={key}
+                                    className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 hover:shadow-[0_2px+8px_rgba(59,130,246,0.2)] transition"
+                                >
+                                    {tech}
+                                </span>
+                                ))}
+                            </div>
+                            
+                            {/* Project Image and Link*/}
+                            <div className="flex justify-between items-center ">
+                                <a 
+                                href="https://github.com/Apurba1903/insurance_prediction_fastAPI_ml_updated"
+                                className="text-blue-400 hover:text-blue-300 transition-colors my-4"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                >
+                                <span>View Project ➡️</span>
+                                <img 
+                                    src="images/insuranceFastAPI.png" 
+                                    alt="Insurance FastAPI"
+                                    className="mt-4 object-cover transition-transform duration-300 hover:scale-110 rounded-lg"
+                                /> 
+                                </a>
+                            </div>
+                        </div>
+                        {/* Insurance Prediction FastAPI End */}
+
+
+
+                        {/* 99Acres Web Scraping Start */}
+                        <div className="p-6 rounded-xl border border-white/10  hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px+8px_rgba(59,130,246,0.1)] transition-all"
+                        >   
+                            {/* Project Name */}
+                            <h3 className="text-xl font-bold mb-2 ">
+
+                                99Acres  - <em>Web Scraping Project</em>
+
+                            </h3>
+
+                            {/* Project Description */}
+                            <p className="text-gray-400 mb-3 text-justify"> 
+
+                                A high-performance web scraper built with Python, Selenium, and Pandas to extract structured real estate data from 99acres.com. Captures key details such as property prices, locations, amenities, and seller contact info while implementing anti-bot bypass techniques for reliable data collection.
+
+                            </p>
+                            
+                            {/* Project Technologies */}
+                            <div className="flex flex-wrap gap-2 ">
+
+                                {["Python", "NumPy", "Pandas", "Selenium"]
+                                
+                                .map((tech, key) => (
+                                    <span 
+                                    key={key}
+                                    className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 hover:shadow-[0_2px+8px_rgba(59,130,246,0.2)] transition"
+                                >
+                                    {tech}
+                                </span>
+                                ))}
+                            </div>
+                            
+                            {/* Project Image and Link*/}
+                            <div className="flex justify-between items-center ">
+                                <a 
+
+                                href="https://github.com/Apurba1903/real_state_ws"
+
+                                className="text-blue-400 hover:text-blue-300 transition-colors my-4"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                >
+                                <span>View Project ➡️</span>
+                                <img 
+
+                                    src="images/99acres.png" 
+                                    alt="99 Acre Website" 
+
+                                    className="mt-4 object-cover transition-transform duration-300 hover:scale-110 rounded-lg"
+                                /> 
+                                </a>
+                            </div>
+                        </div>
+                        {/* 99Acres Web Scraping End */}
+
+
+
+                        {/* Flight Dashboard Start */}
+                        <div className="p-6 rounded-xl border border-white/10  hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px+8px_rgba(59,130,246,0.1)] transition-all"
+                        >   
+                            {/* Project Name */}
+                            <h3 className="text-xl font-bold mb-2 ">
+
+                                Flight Dashboard - <em>Data Analysis Project</em>
+
+                            </h3>
+
+                            {/* Project Description */}
+                            <p className="text-gray-400 mb-3 text-justify"> 
+
+                                An interactive data analytics dashboard built with Streamlit, powered by Amazon RDS (MySQL) and Python for real-time querying and visualization. The dashboard enables users to explore flight-related insights through dynamic filters, charts, and tables.
+
+                            </p>
+                            
+                            {/* Project Technologies */}
+                            <div className="flex flex-wrap gap-2 ">
+
+                                {["Python", "MySQL", "Amazon RDS", "Streamlit"] 
+                                
+                                .map((tech, key) => (
+                                    <span 
+                                    key={key}
+                                    className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 hover:shadow-[0_2px+8px_rgba(59,130,246,0.2)] transition"
+                                >
+                                    {tech}
+                                </span>
+                                ))}
+                            </div>
+                            
+                            {/* Project Image and Link*/}
+                            <div className="flex justify-between items-center ">
+                                <a 
+
+                                href="https://github.com/Apurba1903/flight_dashboard"
+
+                                className="text-blue-400 hover:text-blue-300 transition-colors my-4"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                >
+                                <span>View Project ➡️</span>
+                                <img 
+
+                                    src="images/flightDashboard.png" 
+                                    alt="Flight Dashboard" 
+
+                                    className="mt-4 object-cover transition-transform duration-300 hover:scale-110 rounded-lg"
+                                /> 
+                                </a>
+                            </div>
+                        </div>
+                        {/* Flight Dashboard End */}
+
+
+
+                        {/* SmartPrix Phone Data Start */}
+                        <div className="p-6 rounded-xl border border-white/10  hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px+8px_rgba(59,130,246,0.1)] transition-all"
+                        >   
+                            {/* Project Name */}
+                            <h3 className="text-xl font-bold mb-2 ">
+
+                                Smartprix Phone Data - <em>Data Analysis and Web Scraping Project</em>
+
+                            </h3>
+
+                            {/* Project Description */}
+                            <p className="text-gray-400 mb-3 text-justify"> 
+
+                                A high-performance web scraper that extracts real-time product prices, specifications, and deals from Smartprix. Built with Python, Selenium, and BeautifulSoup, the tool monitors price fluctuations, analyzes market trends, and provides actionable insights for e-commerce and competitive analysis.
+
+                            </p>
+                            
+                            {/* Project Technologies */}
+                            <div className="flex flex-wrap gap-2 ">
+
+                                {["Python", "Selenium", "Pandas", "Beautiful Soup"] 
+                                
+                                .map((tech, key) => (
+                                    <span 
+                                    key={key}
+                                    className="bg-blue-500/10 text-blue-500 py-1 px-3 rounded-full text-sm hover:bg-blue-500/20 hover:shadow-[0_2px+8px_rgba(59,130,246,0.2)] transition"
+                                >
+                                    {tech}
+                                </span>
+                                ))}
+                            </div>
+                            
+                            {/* Project Image and Link*/}
+                            <div className="flex justify-between items-center ">
+                                <a 
+
+                                href="https://github.com/Apurba1903/smartprix_phone_data"
+
+                                className="text-blue-400 hover:text-blue-300 transition-colors my-4"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                >
+                                <span>View Project ➡️</span>
+                                <img 
+
+                                    src="images/smartprixPhone.png" 
+                                    alt="Smartprix Phone Data" 
+
+                                    className="mt-4 object-cover transition-transform duration-300 hover:scale-110 rounded-lg"
+                                /> 
+                                </a>
+                            </div>
+                        </div>
+                        {/* SmartPrix Phone Data End */}
+
+
+
                         {/* BD Dashboard Start */}
                         <div className="p-6 rounded-xl border border-white/10  hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px+8px_rgba(59,130,246,0.1)] transition-all"
                         >   
@@ -149,6 +386,7 @@ export const Projects = () => {
                             </div>
                         </div>
                         {/* BD Dashboard End */}
+
 
 
                         {/* Yahoo Finance Stocks Start */}
@@ -194,6 +432,7 @@ export const Projects = () => {
                         {/* Yahoo Finance Stocks End */}
 
 
+
                         {/* Census Visualization Start */}
                         <div className="p-6 rounded-xl border border-white/10  hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px+8px_rgba(59,130,246,0.1)] transition-all"
                         >   
@@ -235,6 +474,7 @@ export const Projects = () => {
                             </div>
                         </div>
                         {/* Census Visualization End */}
+
 
 
                         {/* Startup Dashboard Start */}
@@ -280,6 +520,7 @@ export const Projects = () => {
                         {/* Startup Dashboard End */}
 
 
+
                         {/* Covid19 Dashboard Start */}
                         <div className="p-6 rounded-xl border border-white/10  hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px+8px_rgba(59,130,246,0.1)] transition-all"
                         >   
@@ -323,6 +564,7 @@ export const Projects = () => {
                         {/* Covid19 Dashboard End */}
 
 
+
                         {/* EPL Top Scorer Start */}
                         <div className="p-6 rounded-xl border border-white/10  hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px+8px_rgba(59,130,246,0.1)] transition-all"
                         >   
@@ -364,6 +606,7 @@ export const Projects = () => {
                             </div>
                         </div>
                         {/* EPL Top Scorer End */}
+
 
 
                         {/* NLP Website Start */}
@@ -420,8 +663,6 @@ export const Projects = () => {
                         {/* NLP Website Start */}
 
 
-                        
-
 
                         {/* Tea House Start */}
                         <div className="p-6 rounded-xl border border-white/10  hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px+8px_rgba(59,130,246,0.1)] transition-all"
@@ -464,6 +705,7 @@ export const Projects = () => {
                             </div>
                         </div>
                         {/* Tea House End */}
+
 
 
                         {/* Penguin Fashion Start */}
@@ -509,6 +751,7 @@ export const Projects = () => {
                         {/* Penguin Fashion End */}
 
 
+
                         {/* Gamer Zone Design Start */}
                         <div className="p-6 rounded-xl border border-white/10  hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px+8px_rgba(59,130,246,0.1)] transition-all"
                         >   
@@ -550,6 +793,7 @@ export const Projects = () => {
                             </div>
                         </div>
                         {/* Gamer Zone Design End */}
+
 
 
                         {/* Biker Zone Start */}
@@ -595,6 +839,7 @@ export const Projects = () => {
                         {/* Biker Zone End */}
 
 
+
                         {/* Fruit Brust Frontend Start */}
                         <div className="p-6 rounded-xl border border-white/10  hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px+8px_rgba(59,130,246,0.1)] transition-all"
                         >   
@@ -638,6 +883,7 @@ export const Projects = () => {
                         {/* Fruit Brust Frontend End */}
 
 
+
                         {/* Flower Shop Start */}
                         <div className="p-6 rounded-xl border border-white/10  hover:-translate-y-1 hover:border-blue-500/30 hover:shadow-[0_2px+8px_rgba(59,130,246,0.1)] transition-all"
                         >   
@@ -679,6 +925,7 @@ export const Projects = () => {
                             </div>
                         </div>
                         {/* Flower Shop End */}
+
 
 
                     </div>
