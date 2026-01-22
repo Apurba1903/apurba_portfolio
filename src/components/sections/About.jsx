@@ -34,6 +34,8 @@ export const About = () => {
     const dbSkills = [
         "MySQL",
         "Amazon RDS",
+        "Normandy DB",
+        "Retool"
         
     ];
 
@@ -199,7 +201,7 @@ export const About = () => {
                     <ul className="list-disc list-inside text-gray-300 space-y-5">
 
                         <li>
-                            <strong> <abbr style={{ textDecoration: "none" }} title="Post Graduate Diploma">PGD</abbr> in Data Science</strong> - IBER, United International University & <abbr style={{ textDecoration: "none" }} title="BASIS Institute of Technology & Management">BITM</abbr> (2025-<em>Running</em>)
+                            <strong> <abbr style={{ textDecoration: "none" }} title="Post Graduate Diploma">PGD</abbr> in Data Science</strong> - IBER, United International University & <abbr style={{ textDecoration: "none" }} title="BASIS Institute of Technology & Management">BITM</abbr> (February, 2025 - December, 2025)
                         </li>
 
                         <li>
@@ -207,11 +209,13 @@ export const About = () => {
                         </li>
 
                         <li>
-                            <strong><abbr style={{ textDecoration: "none" }} title="International English Language Testing System">IELTS</abbr></strong> - Overall Band Score 7
+                            <strong><abbr style={{ textDecoration: "none" }} title="International English Language Testing System">IELTS</abbr></strong> - Overall Band Score 7 &nbsp;
+                            [<a href="https://github.com/Apurba1903/apurba_portfolio/blob/main/public/docs/Certificates/IELTS_Certificate.pdf" target="_blank">Certificate</a>]
                         </li>
 
                         <li>                            
                             <strong>Relevant Coursework:</strong>
+                            
 
                             <ul className="list-inside space-y-2" style={{ listStyleType: "lower-roman" }}>
 
@@ -220,8 +224,27 @@ export const About = () => {
                                 </li>
 
                                 <li>
-                                    <strong>Ultimate Web Scraping for Data Science</strong> by CampusX Edtech Pvt Ltd – <em>Completed</em> &nbsp;
-                                    [<a href="docs/Web-Scraping-Certificate.pdf" target="_blank">Certificate</a>]
+                                    <strong>Ultimate Web Scraping for Data Science</strong> by CampusX Edtech Pvt Ltd – <em>Completed</em> 
+                                    &nbsp;
+                                    [<a href="https://github.com/Apurba1903/apurba_portfolio/blob/main/public/docs/Certificates/Ultimate_Web_Scraping_for_Data_Science-CampusX.pdf" target="_blank">Certificate</a>]
+                                </li>
+
+                                <li>
+                                    <strong>Data Scientist in Python</strong> by DataCamp – <em>Completed</em> 
+                                    &nbsp;
+                                    [<a href="https://github.com/Apurba1903/apurba_portfolio/blob/main/public/docs/Certificates/Data_Scientist_in_Python-DataCamp.pdf" target="_blank">Certificate</a>]
+                                </li>
+
+                                <li>
+                                    <strong>Associate Data Scientist in Python</strong> by DataCamp – <em>Completed</em> 
+                                    &nbsp;
+                                    [<a href="https://github.com/Apurba1903/apurba_portfolio/blob/main/public/docs/Certificates/Associate_Data_Scientist-DataCamp.pdf" target="_blank">Certificate</a>]
+                                </li>
+
+                                <li>
+                                    <strong>Data Analyst in Python</strong> by DataCamp – <em>Completed</em> 
+                                    &nbsp;
+                                    [<a href="https://github.com/Apurba1903/apurba_portfolio/blob/main/public/docs/Certificates/Data_Analyst_in_Python-DataCamp.pdf" target="_blank">Certificate</a>]
                                 </li>
 
 
@@ -238,9 +261,27 @@ export const About = () => {
 
                         
                         <div className="text-gray-300 space-y-5">
+
                             <p>
                                 <h4 className="font-semibold"> 
-                                    <strong>Health Care Expert</strong> at SeekMed Care (March, 2024 - December, 2024)</h4>
+                                    <strong>Operations Analyst (RCM)</strong> at Commure (Augmedix Bangladesh) 
+                                    <br /> (August, 2025 - Running)</h4>
+                                
+                                <ol className="list-inside space-y-1" style={{ listStyleType: "lower-roman" }}>
+                                    
+                                    <li>Analyzed large-scale financial and healthcare transaction data</li>
+                                    <li>Optimized SQL queries to identify and resolve database discrepancies</li>
+                                    <li>Developed Python automation scripts and Retool workflows to reduce manual effort</li>
+                                    <li>Collaborated with engineering and U.S.-based teams to streamline financial operations</li>
+
+                                </ol>
+                                
+                            </p>
+
+                            <p>
+                                <h4 className="font-semibold"> 
+                                    <strong>Health Care Expert</strong> at SeekMed Care 
+                                    <br /> (March, 2024 - December, 2024)</h4>
                                 
                                 <ol className="list-inside space-y-1" style={{ listStyleType: "lower-roman" }}>
                                     <li>Data Management and Excel Work</li>
@@ -252,9 +293,12 @@ export const About = () => {
                             </p>
 
                             <p>
-                                <h4 className="font-semibold"><strong>Workshop</strong> on AI Career Management (February, 2025)</h4>
+                                <h4 className="font-semibold"><strong>Workshop</strong> on AI Career Management 
+                                <br /> (February, 2025)</h4>
                                 <p> 
-                                    Learned about AI Career Management: Skills, Trends and Opportunities.   
+                                    Learned about AI Career Management: Skills, Trends and Opportunities.
+                                    &nbsp;
+                                    [<a href="https://github.com/Apurba1903/apurba_portfolio/blob/main/public/docs/Certificates/AI_Career_Management-Workshop_Certificate.pdf" target="_blank">Certificate</a>]
                                 </p>
                             </p>
                         </div>
